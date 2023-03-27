@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  background-color: bisque;
+  border-radius: 15px;
+  padding: 6px;
+  text-align: center;
+  color: darkblue;
+  border: 2px solid;
+}
+img {
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+.main-nav {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  /* text-align: center; */
+  font-size: 24px;
+  border: 2px solid black;
+}
+.main-nav li {
+  list-style: square;
+  width: 200px;
+  margin: 20px auto;
+
+}
+a {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: cornflowerblue;
+}
